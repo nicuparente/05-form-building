@@ -46,3 +46,40 @@ a:visited {
 /*FORM STYLES
 =======================================*/
 /*TODO: Add the CSS needed to style the form*/
+label{
+  display: block;
+}
+
+.form-group input{
+  width: 100%;
+  font-size: 1.5em;
+  margin: 1%;
+  border-style: none none solid none;
+}
+
+.form-group textarea{
+  width: 100%;
+  font-size: 1.2em;
+  margin: 1%;
+}
+
+.form-group input:invalid,textarea:invalid{
+  border-color: red;
+}
+
+.form-group input:valid, textarea:valid{
+  border-color: green;
+}
+
+#article-export{
+  color:  #E7E7E7;
+}
+
+#export-field{
+  font-size: .8em
+}
+
+#article-json {
+  width: 100%;
+  color: #E7E7E7;
+}
